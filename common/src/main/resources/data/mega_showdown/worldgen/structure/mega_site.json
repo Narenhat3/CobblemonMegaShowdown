@@ -2,8 +2,8 @@
   "type": "minecraft:jigsaw",
   "biomes": "#minecraft:is_overworld",
   "step": "underground_decoration",
+  "terrain_adaptation": "bury",
   "spawn_overrides": {},
-  "terrain_adaptation": "beard_box",
   "start_pool": "mega_showdown:mega_site",
   "size": 1,
   "start_height": {
