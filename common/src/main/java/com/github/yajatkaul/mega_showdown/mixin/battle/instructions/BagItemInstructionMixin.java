@@ -24,13 +24,16 @@ public class BagItemInstructionMixin {
 
     @Inject(method = "invoke", at = @At("TAIL"))
     private void invokeInject(PokemonBattle battle, CallbackInfo ci) {
-        BattlePokemon battlePokemon = message.battlePokemon(0, battle);
-        Pokemon pokemon = battlePokemon.getEffectedPokemon();
-        String item = message.argumentAt(1);
+        BattlePokemon battlePokemon = message.pokemonByUuid(0, battle);
 
-        if (pokemon != null) {
-            String bagitem_name = "mega_showdown:bagitem_" + item;
-            Effect.getEffect(bagitem_name).applyEffectsBattle(pokemon, List.of(), Optional.empty(), null, battlePokemon);
+        if (battlePokemon != null) {
+            Pokemon pokemon = battlePokemon.getEffectedPokemon();
+            String item = message.argumentAt(1);
+
+            if (pokemon != null) {
+                String bagitem_name = "mega_showdown:bagitem_" + item;
+                Effect.getEffect(bagitem_name).applyEffectsBattle(pokemon, List.of(), Optional.empty(), null, battlePokemon);
+            }
         }
     }
 }
