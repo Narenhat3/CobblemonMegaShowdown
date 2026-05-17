@@ -10,11 +10,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 
-public class LoadShowdown {
+public class ShowdownPatcher {
     private static final String SHOWDOWN_VERSION = "1.0.0";
     private static final Gson GSON = new Gson();
 
-    public static void load() {
+    public static void patch() {
         if (MegaShowdownConfig.msdPatchAutoUpdate) {
             Path showdown_sim = Path.of("./showdown/sim");
             Path showdown_data = Path.of("./showdown/data");
@@ -72,7 +72,7 @@ public class LoadShowdown {
     }
 
     private static void yoink(String resourcePath, Path targetPath) {
-        try (InputStream inputStream = LoadShowdown.class.getResourceAsStream(resourcePath)) {
+        try (InputStream inputStream = ShowdownPatcher.class.getResourceAsStream(resourcePath)) {
             if (inputStream == null) {
                 MegaShowdown.LOGGER.error("Fallback file not found: {}", resourcePath);
                 return;

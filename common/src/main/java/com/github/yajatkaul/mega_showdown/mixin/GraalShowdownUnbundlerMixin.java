@@ -2,9 +2,8 @@ package com.github.yajatkaul.mega_showdown.mixin;
 
 import com.cobblemon.mod.common.battles.runner.graal.GraalShowdownUnbundler;
 import com.github.yajatkaul.mega_showdown.config.MegaShowdownConfig;
-import com.github.yajatkaul.mega_showdown.utils.LoadShowdown;
+import com.github.yajatkaul.mega_showdown.utils.ShowdownPatcher;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -17,6 +16,6 @@ public class GraalShowdownUnbundlerMixin {
             MegaShowdownConfig.load();
         }
 
-        LoadShowdown.load();
+        ShowdownPatcher.patch();
     }
 }
