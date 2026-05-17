@@ -11,17 +11,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(value = GraalShowdownUnbundler.class, remap = false)
 public class GraalShowdownUnbundlerMixin {
-    @Unique
-    private boolean neoForge$loaded = false;
-
     @Inject(method = "attemptUnbundle", at = @At("TAIL"))
     private void beforeShowdownStarts(CallbackInfo ci) {
         if (!MegaShowdownConfig.loaded) {
             MegaShowdownConfig.load();
         }
-        if (!neoForge$loaded) {
-            new LoadShowdown().load();
-            neoForge$loaded = true;
-        }
+
+        LoadShowdown.load();
     }
 }
