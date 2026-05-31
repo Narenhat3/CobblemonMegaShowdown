@@ -12,7 +12,7 @@
           "name": "emissive",
           "translucent": true,
           "emissive": true,  
-          "texture": "cobblemon:textures/pokemon/0479_rotom/heat/rotom_heat_emissive2.png"
+          "texture": "cobblemon:textures/pokemon/0479_rotom/heat/rotom_heat_emissive.png"
         }
       ]
     },
