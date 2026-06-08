@@ -18,17 +18,21 @@ import java.util.Optional;
 
 @Mixin(value = AbilityInstruction.class, remap = false)
 public class AbilityInstructionMixin {
-    @Final @Shadow
+    @Final
+    @Shadow
     private BattleMessage message;
 
     @Inject(method = "invoke", at = @At("TAIL"))
     private void invokeInject(PokemonBattle battle, CallbackInfo ci) {
         BattlePokemon battlePokemon = message.battlePokemon(0, battle);
-        Pokemon pokemon = battlePokemon.getEffectedPokemon();
 
-        if (pokemon != null) {
-            String abilityName = "mega_showdown:ability_" + pokemon.getAbility().getName();
-            Effect.getEffect(abilityName).applyEffectsBattle(pokemon, List.of(), Optional.empty(), null, battlePokemon);
+        if (battlePokemon != null) {
+            Pokemon pokemon = battlePokemon.getEffectedPokemon();
+
+            if (pokemon != null) {
+                String abilityName = "mega_showdown:ability_" + pokemon.getAbility().getName();
+                Effect.getEffect(abilityName).applyEffectsBattle(pokemon, List.of(), Optional.empty(), null, battlePokemon);
+            }
         }
     }
 }

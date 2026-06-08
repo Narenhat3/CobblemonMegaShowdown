@@ -481,5 +481,8 @@
         "volume": 1.0
       }
     ]
+  },
+  "pokemon.sceptile_mega.cry": {
+    "sounds": ["cobblemon:pokemon/0254_sceptile/sceptile_mega_cry"]
   }
 }

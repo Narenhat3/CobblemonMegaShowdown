@@ -21,7 +21,7 @@ public class MegaShowdownConfig {
     public static boolean outSideMega = true;
     public static boolean outSideUltraBurst = true;
     public static boolean multipleMegas = false;
-    public static boolean showdownFilesLoading = true;
+    public static boolean msdPatchAutoUpdate = true;
 
     public static boolean mega = true;
     public static boolean zMoves = true;
@@ -65,7 +65,7 @@ public class MegaShowdownConfig {
         JsonObject json = new JsonObject();
         json.addProperty("teraShardRequired", teraShardRequired);
         json.addProperty("multipleMegas", multipleMegas);
-        json.addProperty("showdownFilesLoading", showdownFilesLoading);
+        json.addProperty("msdPatchAutoUpdate", msdPatchAutoUpdate);
         json.addProperty("mega", mega);
         json.addProperty("zMoves", zMoves);
         json.addProperty("teralization", teralization);
@@ -106,8 +106,8 @@ public class MegaShowdownConfig {
             if (json.has("multipleMegas")) {
                 multipleMegas = json.get("multipleMegas").getAsBoolean();
             }
-            if (json.has("showdownFilesLoading")) {
-                showdownFilesLoading = json.get("showdownFilesLoading").getAsBoolean();
+            if (json.has("msdPatchAutoUpdate")) {
+                msdPatchAutoUpdate = json.get("msdPatchAutoUpdate").getAsBoolean();
             }
             if (json.has("mega")) {
                 mega = json.get("mega").getAsBoolean();

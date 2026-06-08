@@ -7,8 +7,8 @@
 				"texture_width": 256,
 				"texture_height": 256,
 				"visible_bounds_width": 13,
-				"visible_bounds_height": 5.5,
-				"visible_bounds_offset": [0, 2.25, 0]
+				"visible_bounds_height": 6,
+				"visible_bounds_offset": [0, 2, 0]
 			},
 			"bones": [
 				{
@@ -843,7 +843,10 @@
 					"pivot": [0, 13.5, 9],
 					"cubes": [
 						{"origin": [-6, 8.25, 9], "size": [12, 12, 16], "uv": [92, 0]}
-					]
+					],
+					"locators": {
+						"clouds_loc": [0, 22, 53]
+					}
 				},
 				{
 					"name": "tail2",
@@ -873,10 +876,7 @@
 				{
 					"name": "bone23",
 					"parent": "tail4",
-					"pivot": [0, 13.25, 69.5],
-					"locators": {
-						"clouds_loc": [0, 36, 68]
-					}
+					"pivot": [0, 13.25, 69.5]
 				},
 				{
 					"name": "flames",

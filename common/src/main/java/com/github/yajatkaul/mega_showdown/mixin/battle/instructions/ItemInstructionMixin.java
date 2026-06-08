@@ -18,18 +18,22 @@ import java.util.Optional;
 
 @Mixin(value = EndItemInstruction.class, remap = false)
 public class ItemInstructionMixin {
-    @Final @Shadow
+    @Final
+    @Shadow
     private BattleMessage message;
 
     @Inject(method = "invoke", at = @At("TAIL"))
     private void invokeInject(PokemonBattle battle, CallbackInfo ci) {
         BattlePokemon battlePokemon = message.battlePokemon(0, battle);
-        Pokemon pokemon = battlePokemon.getEffectedPokemon();
-        String item = message.argumentAt(1);
 
-        if (pokemon != null) {
-            String item_name = "mega_showdown:item_" + item;
-            Effect.getEffect(item_name).applyEffectsBattle(pokemon, List.of(), Optional.empty(), null, battlePokemon);
+        if (battlePokemon != null) {
+            Pokemon pokemon = battlePokemon.getEffectedPokemon();
+            String item = message.argumentAt(1);
+
+            if (pokemon != null) {
+                String item_name = "mega_showdown:item_" + item;
+                Effect.getEffect(item_name).applyEffectsBattle(pokemon, List.of(), Optional.empty(), null, battlePokemon);
+            }
         }
     }
 }
