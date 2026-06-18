@@ -6,11 +6,10 @@
   "rootBone": "pinsir",
   "animations": {
     "cry": "q.bedrock_stateful('pinsir_mega', 'cry')",
+	"status": "q.bedrock_stateful('pinsir_mega', 'cry', q.curve('symmetrical_wide'))",
 	"recoil": "q.bedrock_stateful('pinsir_mega', 'recoil')",
 	"physical": "q.bedrock_primary('pinsir_mega', 'physical', q.curve('symmetrical_wide'))",
 	"special": "q.bedrock_primary('pinsir_mega', 'special', q.curve('symmetrical_wide'))",
-	"battle_cry": "q.bedrock_primary('pinsir_mega', 'battle_cry', q.curve('symmetrical_wide'))",
-	"status": "q.bedrock_primary('pinsir_mega', 'battle_cry', q.curve('symmetrical_wide'))",
 	"faint": "q.bedrock_stateful('pinsir_mega', 'faint', q.curve('symmetrical_wide'))"
   },
   "poses": {
@@ -21,10 +20,7 @@
       "animations": ["q.look('head')", "q.bedrock('pinsir_mega', 'ground_idle')"],
       "quirks": [
 	  "q.bedrock_quirk('pinsir_mega', 'blink')",
-	  "q.bedrock_quirk('pinsir_mega', 'pinch_quirk', 6, 32, 1)"],
-	  "namedAnimations": {
-       "cry": "q.bedrock_primary('pinsir_mega', 'battle_cry', q.curve('symmetrical_wide'))"
-	  }
+	  "q.bedrock_quirk('pinsir_mega', 'pinch_quirk', 6, 32, 1)"]
     },
 	"battle-flying": {
       "poseTypes": ["HOVER", "FLOAT"],
@@ -35,10 +31,7 @@
       ],
       "quirks": [
         "q.bedrock_quirk('pinsir_mega', 'blink')",
-		"q.bedrock_quirk('pinsir_mega', 'pinch_quirk', 6, 32, 1)"],
-		"namedAnimations": {
-		"cry": "q.bedrock_primary('pinsir_mega', 'battle_cry', q.curve('symmetrical_wide'))"
-	  }
+		"q.bedrock_quirk('pinsir_mega', 'pinch_quirk', 6, 32, 1)"]
     },
     "standing": {
       "poseName": "standing",
