@@ -3,13 +3,18 @@
   "order": 2,
   "variations": [
     {
-      "aspects": ["gmax"],
+      "aspects": [
+        "gmax"
+      ],
       "poser": "cobblemon:eevee_gigantamax",
       "model": "cobblemon:eevee_gigantamax.geo",
       "texture": "cobblemon:textures/pokemon/0133_eevee/eevee_gigantamax.png"
     },
     {
-      "aspects": ["gmax", "shiny"],
+      "aspects": [
+        "gmax",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0133_eevee/eevee_gigantamax_shiny.png"
     }
   ]

@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["meteor-form"],
+      "aspects": [
+        "meteor-form"
+      ],
       "poser": "cobblemon:minior",
       "model": "cobblemon:minior.geo",
       "texture": "cobblemon:textures/pokemon/0774_minior/minior.png",
@@ -16,7 +18,10 @@
       ]
     },
     {
-      "aspects": ["meteor-form", "orange-core"],
+      "aspects": [
+        "meteor-form",
+        "orange-core"
+      ],
       "poser": "cobblemon:minior",
       "model": "cobblemon:minior.geo",
       "texture": "cobblemon:textures/pokemon/0774_minior/minior.png",
@@ -29,7 +34,10 @@
       ]
     },
     {
-      "aspects": ["meteor-form", "yellow-core"],
+      "aspects": [
+        "meteor-form",
+        "yellow-core"
+      ],
       "poser": "cobblemon:minior",
       "model": "cobblemon:minior.geo",
       "texture": "cobblemon:textures/pokemon/0774_minior/minior.png",
@@ -42,7 +50,10 @@
       ]
     },
     {
-      "aspects": ["meteor-form", "green-core"],
+      "aspects": [
+        "meteor-form",
+        "green-core"
+      ],
       "poser": "cobblemon:minior",
       "model": "cobblemon:minior.geo",
       "texture": "cobblemon:textures/pokemon/0774_minior/minior.png",
@@ -55,7 +66,10 @@
       ]
     },
     {
-      "aspects": ["meteor-form", "blue-core"],
+      "aspects": [
+        "meteor-form",
+        "blue-core"
+      ],
       "poser": "cobblemon:minior",
       "model": "cobblemon:minior.geo",
       "texture": "cobblemon:textures/pokemon/0774_minior/minior.png",
@@ -68,7 +82,10 @@
       ]
     },
     {
-      "aspects": ["meteor-form", "indigo-core"],
+      "aspects": [
+        "meteor-form",
+        "indigo-core"
+      ],
       "poser": "cobblemon:minior",
       "model": "cobblemon:minior.geo",
       "texture": "cobblemon:textures/pokemon/0774_minior/minior.png",
@@ -81,7 +98,10 @@
       ]
     },
     {
-      "aspects": ["meteor-form", "violet-core"],
+      "aspects": [
+        "meteor-form",
+        "violet-core"
+      ],
       "poser": "cobblemon:minior",
       "model": "cobblemon:minior.geo",
       "texture": "cobblemon:textures/pokemon/0774_minior/minior.png",
@@ -94,7 +114,10 @@
       ]
     },
     {
-      "aspects": ["meteor-form", "shiny"],
+      "aspects": [
+        "meteor-form",
+        "shiny"
+      ],
       "poser": "cobblemon:minior",
       "model": "cobblemon:minior.geo",
       "texture": "cobblemon:textures/pokemon/0774_minior/minior.png",

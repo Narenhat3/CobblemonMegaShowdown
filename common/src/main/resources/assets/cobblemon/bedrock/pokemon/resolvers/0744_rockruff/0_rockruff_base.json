@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0744_rockruff/rockruff.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0744_rockruff/rockruff_shiny.png"
     }
   ]

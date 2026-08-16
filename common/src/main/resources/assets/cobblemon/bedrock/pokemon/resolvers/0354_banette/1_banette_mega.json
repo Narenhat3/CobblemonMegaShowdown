@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["mega"],
+      "aspects": [
+        "mega"
+      ],
       "poser": "cobblemon:banette_mega",
       "model": "cobblemon:banette_mega.geo",
       "texture": "cobblemon:textures/pokemon/0354_banette/banette_mega.png",
@@ -16,7 +18,10 @@
       ]
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0354_banette/banette_mega_shiny.png"
     }
   ]

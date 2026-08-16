@@ -94,8 +94,6 @@ public class CobbleEvents {
 
         if (pokemon.getSpecies().getName().equals("Greninja") && formeChangeEvent.getFormeName().equals("ash")) {
             AdvancementHelper.grantAdvancement(pokemon.getOwnerPlayer(), "bond/ash_greninja");
-        } else if (pokemon.getSpecies().getName().equals("Greninja") && pokemon.getAspects().contains("bond")) {
-            AdvancementHelper.grantAdvancement(pokemon.getOwnerPlayer(), "bond/ash_battle_bond");
         }
 
         BattlePokemon battlePokemon = formeChangeEvent.getPokemon();

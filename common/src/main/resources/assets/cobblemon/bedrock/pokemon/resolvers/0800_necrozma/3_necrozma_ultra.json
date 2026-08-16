@@ -3,7 +3,9 @@
   "order": 3,
   "variations": [
     {
-      "aspects": ["ultra-fusion"],
+      "aspects": [
+        "ultra-fusion"
+      ],
       "poser": "cobblemon:necrozma_ultra",
       "model": "cobblemon:necrozma_ultra.geo",
       "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_ultra.png",
@@ -21,7 +23,10 @@
       ]
     },
     {
-      "aspects": ["shiny", "ultra-fusion"],
+      "aspects": [
+        "shiny",
+        "ultra-fusion"
+      ],
       "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_ultra_shiny.png",
       "layers": [
         {

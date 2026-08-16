@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["gmax"],
+      "aspects": [
+        "gmax"
+      ],
       "poser": "cobblemon:corviknight_gmax",
       "model": "cobblemon:corviknight_gmax.geo",
       "texture": "cobblemon:textures/pokemon/0823_corviknight/corviknight_gmax.png",
@@ -16,7 +18,10 @@
       ]
     },
     {
-      "aspects": ["shiny", "gmax"],
+      "aspects": [
+        "shiny",
+        "gmax"
+      ],
       "texture": "cobblemon:textures/pokemon/0823_corviknight/corviknight_gmax_shiny.png",
       "layers": [
         {

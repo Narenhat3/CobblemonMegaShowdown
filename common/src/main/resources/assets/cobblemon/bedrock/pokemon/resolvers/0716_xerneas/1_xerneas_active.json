@@ -3,13 +3,18 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["active-mode"],
+      "aspects": [
+        "active-mode"
+      ],
       "poser": "cobblemon:xerneas",
       "model": "cobblemon:xerneas.geo",
       "texture": "cobblemon:textures/pokemon/0716_xerneas/xerneas.png"
     },
     {
-      "aspects": ["shiny", "active-mode"],
+      "aspects": [
+        "shiny",
+        "active-mode"
+      ],
       "texture": "cobblemon:textures/pokemon/0716_xerneas/xerneas_shiny.png"
     }
   ]

@@ -1,19 +1,47 @@
 {
   "portraitScale": 2.1,
-  "portraitTranslation": [-1.11, 2.43, 0],
+  "portraitTranslation": [
+    -1.11,
+    2.43,
+    0
+  ],
   "profileScale": 0.54,
-  "profileTranslation": [0, 0.96, -10],
+  "profileTranslation": [
+    0,
+    0.96,
+    -10
+  ],
   "rootBone": "charizard",
   "firstPersonCameraOffset": {
-    "seat_1": [0, 0.45, 0]
+    "seat_1": [
+      0,
+      0.45,
+      0
+    ]
   },
   "thirdPersonCameraOffset": {
-    "seat_1": [0, 1, 1],
-    "seat_1_reverse": [0, 1, 0]
+    "seat_1": [
+      0,
+      1,
+      1
+    ],
+    "seat_1_reverse": [
+      0,
+      1,
+      0
+    ]
   },
   "thirdPersonCameraOffsetNoViewBobbing": {
-    "seat_1": [0, 1, 1],
-    "seat_1_reverse": [0, 1, 0]
+    "seat_1": [
+      0,
+      1,
+      1
+    ],
+    "seat_1_reverse": [
+      0,
+      1,
+      0
+    ]
   },
   "animations": {
     "cry": "q.bedrock_stateful('charizard_mega_y', 'cry')",
@@ -26,10 +54,14 @@
   },
   "poses": {
     "portrait": {
-      "poseTypes": ["PORTRAIT", "PROFILE"],
+      "poseTypes": [
+        "PORTRAIT",
+        "PROFILE"
+      ],
       "isBattle": false,
       "isTouchingWater": false,
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -40,13 +72,18 @@
           "animation": "q.bedrock('charizard_mega_y', 'hold_item')"
         }
       ],
-      "quirks": ["q.bedrock_quirk('charizard_mega_y', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('charizard_mega_y', 'blink')"
+      ]
     },
     "battle-standing": {
-      "poseTypes": ["STAND"],
+      "poseTypes": [
+        "STAND"
+      ],
       "isBattle": true,
       "isTouchingWater": false,
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -66,9 +103,12 @@
       }
     },
     "battle-flying": {
-      "poseTypes": ["HOVER"],
+      "poseTypes": [
+        "HOVER"
+      ],
       "isBattle": true,
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -91,9 +131,13 @@
       }
     },
     "jump": {
-      "poseTypes": ["STAND", "WALK"],
+      "poseTypes": [
+        "STAND",
+        "WALK"
+      ],
       "condition": "q.in_air",
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -111,11 +155,15 @@
       "transformToTicks": 5
     },
     "running": {
-      "poseTypes": ["WALK", "SWIM"],
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
       "isBattle": false,
       "isTouchingWater": false,
       "condition": "!q.in_air && q.is_sprinting",
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -135,11 +183,15 @@
       ]
     },
     "standing": {
-      "poseTypes": ["STAND", "NONE"],
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
       "isBattle": false,
       "isTouchingWater": false,
       "condition": "!q.in_air",
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -157,11 +209,15 @@
       ]
     },
     "walking": {
-      "poseTypes": ["WALK", "SWIM"],
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
       "isBattle": false,
       "isTouchingWater": false,
       "condition": "!q.in_air && !q.is_sprinting",
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -181,9 +237,12 @@
       ]
     },
     "hover": {
-      "poseTypes": ["HOVER"],
+      "poseTypes": [
+        "HOVER"
+      ],
       "isBattle": false,
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -199,10 +258,13 @@
       ]
     },
     "fly": {
-      "poseTypes": ["FLY"],
+      "poseTypes": [
+        "FLY"
+      ],
       "isBattle": false,
       "condition": "!q.is_gliding",
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -223,10 +285,13 @@
       ]
     },
     "glide": {
-      "poseTypes": ["FLY"],
+      "poseTypes": [
+        "FLY"
+      ],
       "isBattle": false,
       "condition": "q.is_gliding",
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -247,10 +312,14 @@
       ]
     },
     "surface_idle": {
-      "poseTypes": ["STAND", "FLOAT"],
+      "poseTypes": [
+        "STAND",
+        "FLOAT"
+      ],
       "isTouchingWater": true,
       "isUnderWater": false,
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -267,15 +336,23 @@
       "transformedParts": [
         {
           "part": "body",
-          "position": [0, 22, 0]
+          "position": [
+            0,
+            22,
+            0
+          ]
         }
       ]
     },
     "surface_swim": {
-      "poseTypes": ["WALK", "SWIM"],
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
       "isTouchingWater": true,
       "isUnderWater": false,
-      "animations": ["q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
         "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
         "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
         "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
@@ -292,16 +369,23 @@
       "transformedParts": [
         {
           "part": "body",
-          "position": [0, 22, 0]
+          "position": [
+            0,
+            22,
+            0
+          ]
         }
       ]
     },
     "sleep": {
-      "poseTypes": ["SLEEP"],
+      "poseTypes": [
+        "SLEEP"
+      ],
       "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
       },
-      "animations": ["q.bedrock('charizard_mega_y', 'sleep')",
+      "animations": [
+        "q.bedrock('charizard_mega_y', 'sleep')",
         {
           "condition": "q.is_holding_item",
           "animation": "q.bedrock('charizard_mega_y', 'hold_item')"

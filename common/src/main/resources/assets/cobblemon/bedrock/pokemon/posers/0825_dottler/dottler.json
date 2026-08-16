@@ -1,9 +1,17 @@
 {
   "head": "head",
   "portraitScale": 1.2,
-  "portraitTranslation": [ 0, 0, 0 ],
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
   "profileScale": 1.1,
-  "profileTranslation": [ 0, 0, 0 ],
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
   "poses": {
     "standing": {
       "poseName": "standing",
@@ -11,14 +19,14 @@
       "poseTypes": [
         "STAND",
         "PORTRAIT",
-		"PROFILE",
-		"NONE"
+        "PROFILE",
+        "NONE"
       ],
       "animations": [
         "bedrock(dottler, ground_idle)"
       ]
-  },
-  	 "walking": {
+    },
+    "walking": {
       "poseName": "walking",
       "transformTicks": 10,
       "poseTypes": [
@@ -28,5 +36,5 @@
         "bedrock(dottler, ground_walk)"
       ]
     }
-}
+  }
 }

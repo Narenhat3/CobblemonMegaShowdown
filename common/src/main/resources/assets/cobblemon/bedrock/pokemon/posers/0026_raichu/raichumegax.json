@@ -1,15 +1,28 @@
 {
   "portraitScale": 1.9,
-  "portraitTranslation": [0.05, 0.3, 0.0],
+  "portraitTranslation": [
+    0.05,
+    0.3,
+    0.0
+  ],
   "profileScale": 0.5,
-  "profileTranslation": [0.1, 1, 0.0],
+  "profileTranslation": [
+    0.1,
+    1,
+    0.0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('raichumegax', 'cry')",
     "recoil": "q.bedrock_stateful('raichumegax', 'recoil', q.curve('one'))"
   },
   "poses": {
     "standing": {
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
       "isBattle": false,
       "animations": [
         "q.look('head')",
@@ -17,18 +30,26 @@
       ]
     },
     "battle-standing": {
-      "poseTypes": ["STAND"],
+      "poseTypes": [
+        "STAND"
+      ],
       "isBattle": true,
       "animations": [
         "q.look('head')",
         "q.bedrock('raichumegax', 'battle_idle')"
       ],
-      "quirks": ["q.bedrock_quirk('raichumegax', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('raichumegax', 'blink')"
+      ]
     },
     "walking": {
-      "poseTypes": ["WALK"],
+      "poseTypes": [
+        "WALK"
+      ],
       "isBattle": false,
-      "animations": ["q.bedrock('raichumegax', 'ground_walk')"]
+      "animations": [
+        "q.bedrock('raichumegax', 'ground_walk')"
+      ]
     }
   }
 }

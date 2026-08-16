@@ -3,7 +3,9 @@
   "order": 2,
   "variations": [
     {
-      "aspects": ["wash-appliance"],
+      "aspects": [
+        "wash-appliance"
+      ],
       "poser": "cobblemon:rotom_wash",
       "model": "cobblemon:rotom_wash.geo",
       "texture": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash.png",
@@ -17,7 +19,10 @@
       ]
     },
     {
-      "aspects": ["wash-appliance","shiny"],
+      "aspects": [
+        "wash-appliance",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash_shiny.png",
       "layers": [
         {

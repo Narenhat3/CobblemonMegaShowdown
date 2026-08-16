@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0888_zacian/zacian.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0888_zacian/zacian_shiny.png"
     }
   ]

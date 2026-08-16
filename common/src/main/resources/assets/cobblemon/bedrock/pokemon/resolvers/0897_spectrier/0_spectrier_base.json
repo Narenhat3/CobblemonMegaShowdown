@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0897_spectrier/spectrier.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0897_spectrier/spectrier_shiny.png"
     }
   ]

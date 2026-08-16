@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0892_urshifu/urshifu.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0892_urshifu/urshifu_shiny.png"
     }
   ]

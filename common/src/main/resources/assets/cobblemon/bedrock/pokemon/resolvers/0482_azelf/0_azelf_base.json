@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0482_azelf/azelf.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0482_azelf/azelf_shiny.png"
     }
   ]

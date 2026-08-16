@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0384_rayquaza/rayquaza.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0384_rayquaza/rayquaza_shiny.png"
     }
   ]

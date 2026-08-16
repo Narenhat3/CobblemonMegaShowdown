@@ -17,11 +17,16 @@
       ]
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys_shiny.png"
     },
     {
-      "aspects": ["normal-forme", "green-color"],
+      "aspects": [
+        "normal-forme",
+        "green-color"
+      ],
       "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys_green_core.png",
       "layers": [
         {
@@ -33,7 +38,11 @@
       ]
     },
     {
-      "aspects": ["shiny", "normal-forme", "green-color"],
+      "aspects": [
+        "shiny",
+        "normal-forme",
+        "green-color"
+      ],
       "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys_green_core_shiny.png"
     }
   ]

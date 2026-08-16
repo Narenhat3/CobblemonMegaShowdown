@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0808_meltan/meltan.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0808_meltan/meltan_shiny.png"
     }
   ]

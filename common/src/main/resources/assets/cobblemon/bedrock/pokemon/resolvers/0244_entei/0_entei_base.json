@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0244_entei/entei.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0244_entei/entei_shiny.png"
     }
   ]

@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0420_cherubi/cherubi.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0420_cherubi/cherubi_shiny.png"
     }
   ]

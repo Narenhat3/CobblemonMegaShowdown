@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0487_giratina/giratina.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0487_giratina/giratina_shiny.png"
     }
   ]

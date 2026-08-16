@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0414_mothim/mothim.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0414_mothim/mothim_shiny.png"
     }
   ]

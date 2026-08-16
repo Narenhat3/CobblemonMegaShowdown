@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0809_melmetal/melmetal.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0809_melmetal/melmetal_shiny.png"
     }
   ]

@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["black-fusion"],
+      "aspects": [
+        "black-fusion"
+      ],
       "poser": "cobblemon:kyuremblack",
       "model": "cobblemon:kyuremblack.geo",
       "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack.png",
@@ -17,7 +19,10 @@
       ]
     },
     {
-      "aspects": ["black-fusion", "shiny"],
+      "aspects": [
+        "black-fusion",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0646_kyurem/kyuremblack_shiny.png",
       "layers": [
         {

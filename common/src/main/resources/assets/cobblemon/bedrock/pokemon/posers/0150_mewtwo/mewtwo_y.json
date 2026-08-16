@@ -2,9 +2,17 @@
   "head": "head",
   "rootBone": "mewtwo",
   "portraitScale": 1.8,
-  "portraitTranslation": [-0.33, 2.1, 0],
+  "portraitTranslation": [
+    -0.33,
+    2.1,
+    0
+  ],
   "profileScale": 0.55,
-  "profileTranslation": [0, 1.0, 0],
+  "profileTranslation": [
+    0,
+    1.0,
+    0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('mewtwo_y', 'cry')",
     "recoil": "q.bedrock_stateful('mewtwo_y', 'recoil')",
@@ -15,41 +23,62 @@
   "poses": {
     "battle_idle": {
       "poseName": "battle_idle",
-      "poseTypes": ["STAND"],
+      "poseTypes": [
+        "STAND"
+      ],
       "isBattle": true,
       "animations": [
         "q.look('head_ai')",
         "q.bedrock('mewtwo_y', 'battle_idle')"
       ],
-      "quirks": ["q.bedrock_quirk('mewtwo_y', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('mewtwo_y', 'blink')"
+      ]
     },
-
     "standing": {
       "poseName": "standing",
-      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE"
+      ],
       "isBattle": false,
       "animations": [
         "q.look('head_ai')",
         "q.bedrock('mewtwo_y', 'ground_idle')"
       ],
-      "quirks": ["q.bedrock_quirk('mewtwo_y', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('mewtwo_y', 'blink')"
+      ]
     },
-
     "walking": {
       "poseName": "walk",
-      "poseTypes": ["WALK", "FLY", "SWIM"],
-      "animations": ["q.look('body')", "q.bedrock('mewtwo_y', 'ground_walk')"],
-      "quirks": ["q.bedrock_quirk('mewtwo_y', 'blink')"]
+      "poseTypes": [
+        "WALK",
+        "FLY",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('body')",
+        "q.bedrock('mewtwo_y', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mewtwo_y', 'blink')"
+      ]
     },
-
     "air_idle": {
       "poseName": "air_idle",
-      "poseTypes": ["HOVER", "FLOAT"],
+      "poseTypes": [
+        "HOVER",
+        "FLOAT"
+      ],
       "animations": [
         "q.look('head_ai')",
         "q.bedrock('mewtwo_y', 'ground_idle')"
       ],
-      "quirks": ["q.bedrock_quirk('mewtwo_y', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('mewtwo_y', 'blink')"
+      ]
     }
   }
 }

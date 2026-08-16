@@ -3,12 +3,17 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["mega"],
+      "aspects": [
+        "mega"
+      ],
       "model": "cobblemon:lopunny_mega.geo",
       "texture": "cobblemon:textures/pokemon/0428_lopunny/lopunny_mega.png"
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0428_lopunny/lopunny_mega_shiny.png"
     }
   ]

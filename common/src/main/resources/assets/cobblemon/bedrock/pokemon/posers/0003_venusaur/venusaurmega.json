@@ -4,10 +4,18 @@
     "recoil": "q.bedrock_stateful('venusaur_mega', 'recoil')"
   },
   "firstPersonCameraOffset": {
-    "seat_1": [0, 0.25, 0]
+    "seat_1": [
+      0,
+      0.25,
+      0
+    ]
   },
   "portraitScale": 1.03,
-  "portraitTranslation": [-0.31, 0.12, 0],
+  "portraitTranslation": [
+    -0.31,
+    0.12,
+    0
+  ],
   "poses": {
     "battle-standing": {
       "animations": [
@@ -20,7 +28,9 @@
         }
       ],
       "isBattle": true,
-      "poseTypes": ["STAND"],
+      "poseTypes": [
+        "STAND"
+      ],
       "quirks": [
         "q.bedrock_quirk('venusaur_mega', 'blink')"
       ]
@@ -45,7 +55,12 @@
       ],
       "condition": "q.in_air && q.has_entity",
       "isBattle": false,
-      "poseTypes": ["WALK", "STAND", "FLOAT", "NONE"],
+      "poseTypes": [
+        "WALK",
+        "STAND",
+        "FLOAT",
+        "NONE"
+      ],
       "quirks": [
         "q.bedrock_quirk('venusaur_mega', 'blink')"
       ],
@@ -72,7 +87,9 @@
       ],
       "condition": "!q.in_air && q.is_sprinting && q.has_entity",
       "isBattle": false,
-      "poseTypes": ["WALK"],
+      "poseTypes": [
+        "WALK"
+      ],
       "quirks": [
         "q.bedrock_quirk('venusaur_mega', 'blink')"
       ]
@@ -88,7 +105,9 @@
       "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
       },
-      "poseTypes": ["SLEEP"]
+      "poseTypes": [
+        "SLEEP"
+      ]
     },
     "standing": {
       "animations": [
@@ -106,7 +125,12 @@
       ],
       "condition": "!q.in_air",
       "isBattle": false,
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
       "quirks": [
         "q.bedrock_quirk('venusaur_mega', 'blink')",
         "q.bedrock_quirk('venusaur_mega', 'look_quirk')"
@@ -132,7 +156,10 @@
         }
       ],
       "condition": "!q.in_air && !q.is_sprinting",
-      "poseTypes": ["WALK", "SWIM"],
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
       "quirks": [
         "q.bedrock_quirk('venusaur_mega', 'blink')"
       ],
@@ -140,14 +167,34 @@
     }
   },
   "profileScale": 0.47,
-  "profileTranslation": [0, 0.98, 0],
+  "profileTranslation": [
+    0,
+    0.98,
+    0
+  ],
   "rootBone": "venusaur_mega",
   "thirdPersonCameraOffset": {
-    "seat_1": [0, 0.45, 1],
-    "seat_1_reverse": [0, 0.45, 1]
+    "seat_1": [
+      0,
+      0.45,
+      1
+    ],
+    "seat_1_reverse": [
+      0,
+      0.45,
+      1
+    ]
   },
   "thirdPersonCameraOffsetNoViewBobbing": {
-    "seat_1": [0, 0.45, 1],
-    "seat_1_reverse": [0, 0.45, 1]
+    "seat_1": [
+      0,
+      0.45,
+      1
+    ],
+    "seat_1_reverse": [
+      0,
+      0.45,
+      1
+    ]
   }
 }

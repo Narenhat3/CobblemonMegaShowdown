@@ -5,6 +5,8 @@ import com.cobblemon.mod.common.api.battles.model.PokemonBattle;
 import com.cobblemon.mod.common.battles.interpreter.instructions.AbilityInstruction;
 import com.cobblemon.mod.common.battles.pokemon.BattlePokemon;
 import com.cobblemon.mod.common.pokemon.Pokemon;
+import com.github.yajatkaul.mega_showdown.MegaShowdown;
+import com.github.yajatkaul.mega_showdown.advancement.AdvancementHelper;
 import com.github.yajatkaul.mega_showdown.api.codec.Effect;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -32,6 +34,10 @@ public class AbilityInstructionMixin {
             if (pokemon != null) {
                 String abilityName = "mega_showdown:ability_" + pokemon.getAbility().getName();
                 Effect.getEffect(abilityName).applyEffectsBattle(pokemon, List.of(), Optional.empty(), null, battlePokemon);
+
+                if (pokemon.getSpecies().getName().equals("Greninja") && pokemon.getAbility().getName().equals("battlebond")) {
+                    AdvancementHelper.grantAdvancement(pokemon.getOwnerPlayer(), "bond/ash_battle_bond");
+                }
             }
         }
     }

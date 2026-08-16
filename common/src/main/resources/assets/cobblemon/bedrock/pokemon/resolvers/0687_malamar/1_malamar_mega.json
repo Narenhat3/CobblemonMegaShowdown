@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["mega"],
+      "aspects": [
+        "mega"
+      ],
       "model": "cobblemon:malamarmega.geo",
       "poser": "cobblemon:malamarmega",
       "texture": "cobblemon:textures/pokemon/0687_malamar/malamar_mega.png",
@@ -28,7 +30,10 @@
       ]
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0687_malamar/malamar_mega_shiny.png"
     }
   ]
