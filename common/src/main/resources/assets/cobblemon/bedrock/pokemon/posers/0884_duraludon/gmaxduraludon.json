@@ -1,8 +1,8 @@
 {
-  "portraitScale": 1.0,
-  "portraitTranslation": [0.0, 0.0, 0],
-  "profileScale": 0.85,
-  "profileTranslation": [0.0, 0.0, 0],
+  "portraitScale": 0.41,
+  "portraitTranslation": [-0.15, 3.84, 0],
+  "profileScale": 0.14,
+  "profileTranslation": [0, 1.5, 0],
   "rootBone": "gmax_duraludon",
   "poses": {
     "standing": {

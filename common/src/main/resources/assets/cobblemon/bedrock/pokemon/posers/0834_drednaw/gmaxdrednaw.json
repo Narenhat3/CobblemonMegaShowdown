@@ -1,8 +1,8 @@
 {
-  "portraitScale": 1.0,
-  "portraitTranslation": [0.0, 0.0, 0],
-  "profileScale": 0.85,
-  "profileTranslation": [0.0, 0.0, 0],
+  "portraitScale": 0.76,
+  "portraitTranslation": [0.0, 2.3, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0.0, 1.2, 0],
   "rootBone": "gmax_drednaw",
   "poses": {
     "standing": {

@@ -1,8 +1,8 @@
 {
-  "portraitScale": 1.0,
-  "portraitTranslation": [0.0, 0.0, 0],
-  "profileScale": 0.85,
-  "profileTranslation": [0.0, 0.0, 0],
+  "portraitScale": 0.8,
+  "portraitTranslation": [-1, 2.7, 0],
+  "profileScale": 0.34,
+  "profileTranslation": [0.0, 1.3, 0],
   "rootBone": "gmax_orbeetle",
   "poses": {
     "standing": {
