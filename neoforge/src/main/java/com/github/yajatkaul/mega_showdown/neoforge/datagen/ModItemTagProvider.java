@@ -38,6 +38,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(MegaShowdownItems.KORRINA_GLOVE.get())
                 .add(MegaShowdownItems.MAXIE_GLASSES.get())
                 .add(MegaShowdownItems.ARCHIE_ANCHOR.get())
+                .add(MegaShowdownItems.DIANTHA_MEGA_CHARM.get())
+                .add(MegaShowdownItems.ZINNIA_MEGA_ANKLET.get())
                 .add(MegaShowdownItems.LISIA_MEGA_TIARA.get());
 
         tag(MegaShowdownTags.Items.DYNAMAX_BAND)

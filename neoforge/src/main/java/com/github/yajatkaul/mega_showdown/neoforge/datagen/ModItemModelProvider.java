@@ -267,6 +267,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(MegaShowdownItems.MAXIE_GLASSES.get());
         basicItem(MegaShowdownItems.ARCHIE_ANCHOR.get());
         basicItem(MegaShowdownItems.LISIA_MEGA_TIARA.get());
+        basicItem(MegaShowdownItems.DIANTHA_MEGA_CHARM.get());
+        basicItem(MegaShowdownItems.ZINNIA_MEGA_ANKLET.get());
 
         basicItem(MegaShowdownItems.DYNAMAX_BAND.get());
         basicItem(MegaShowdownItems.TERA_ORB.get());

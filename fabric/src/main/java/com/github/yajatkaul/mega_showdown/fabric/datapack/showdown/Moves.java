@@ -44,10 +44,14 @@ public class Moves implements DataRegistry {
                 Value receiveMoveDataFn = service.context.getBindings("js").getMember("receiveMoveData");
                 for (Map.Entry<String, String> entry : Moves.INSTANCE.getMoveScripts().entrySet()) {
                     String moveId = entry.getKey();
-                    String js = entry.getValue().replace("\n", " ");
-                    JsonObject moveData = gson.fromJson(receiveMoveDataFn.execute(moveId, js).asString(), JsonObject.class);
-                    MoveTemplate newMove = NewMove.INSTANCE.createMoveTemplate(moveData, moveId);
-                    NewMove.INSTANCE.register(newMove);
+                    try {
+                        String js = entry.getValue().replace("\n", " ");
+                        JsonObject moveData = gson.fromJson(receiveMoveDataFn.execute(moveId, js).asString(), JsonObject.class);
+                        MoveTemplate newMove = NewMove.INSTANCE.createMoveTemplate(moveData, moveId);
+                        NewMove.INSTANCE.register(newMove);
+                    } catch (Throwable t) {
+                        MegaShowdown.LOGGER.error("Failed to register move {}: {}", moveId, t);
+                    }
                 }
             }
             return Unit.INSTANCE;

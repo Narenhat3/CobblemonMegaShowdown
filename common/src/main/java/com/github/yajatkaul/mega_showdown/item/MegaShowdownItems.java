@@ -291,6 +291,8 @@ public class MegaShowdownItems {
     public static final RegistrySupplier<Item> MAXIE_GLASSES = registerMegaBracelet("maxie_glasses");
     public static final RegistrySupplier<Item> ARCHIE_ANCHOR = registerMegaBracelet("archie_anchor");
     public static final RegistrySupplier<Item> LISIA_MEGA_TIARA = registerMegaBracelet("lisia_mega_tiara");
+    public static final RegistrySupplier<Item> DIANTHA_MEGA_CHARM = registerMegaBracelet("diantha_mega_charm");
+    public static final RegistrySupplier<Item> ZINNIA_MEGA_ANKLET = registerMegaBracelet("zinnia_mega_anklet");
 
     public static final RegistrySupplier<Item> TERA_ORB = registerTeraOrb("tera_orb");
 
