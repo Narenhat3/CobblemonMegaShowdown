@@ -1,15 +1,25 @@
 {
   "portraitScale": 1.13,
-  "portraitTranslation": [-2.06, 9.74, 0],
+  "portraitTranslation": [
+    -2.06,
+    9.74,
+    0
+  ],
   "profileScale": 0.11,
-  "profileTranslation": [-0.07, 1.59, -20],
+  "profileTranslation": [
+    -0.07,
+    1.59,
+    -20
+  ],
   "animations": {
-    
   },
   "poses": {
     "battle-standing": {
       "transformTicks": 10,
-      "poseTypes": ["STAND", "WALK"],
+      "poseTypes": [
+        "STAND",
+        "WALK"
+      ],
       "condition": "!q.in_air && !q.is_sprinting",
       "isBattle": true,
       "animations": [
@@ -18,8 +28,13 @@
     },
     "standing": {
       "transformTicks": 10,
-      "condition": "!q.in_air && !q.is_ridden" ,
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "!q.in_air && !q.is_ridden",
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
       "isBattle": false,
       "animations": [
         "q.bedrock('necrozma_ultra', 'ground_idle')"
@@ -28,7 +43,9 @@
     "walking": {
       "transformTicks": 8,
       "condition": "!q.in_air && !q.is_sprinting && !q.is_ridden",
-      "poseTypes": ["WALK"],
+      "poseTypes": [
+        "WALK"
+      ],
       "animations": [
         "q.bedrock('necrozma_ultra', 'air_fly')"
       ]
@@ -36,63 +53,79 @@
     "hover": {
       "transformTicks": 5,
       "condition": "!q.in_air && !q.is_sprinting",
-      "poseTypes": [ "HOVER", "FLOAT" ],
+      "poseTypes": [
+        "HOVER",
+        "FLOAT"
+      ],
       "animations": [
         "q.bedrock('necrozma_ultra', 'ground_idle')"
-       ]
+      ]
     },
     "fly": {
       "transformTicks": 5,
       "condition": "!q.is_sprinting",
-      "poseTypes": [ "FLY"],
+      "poseTypes": [
+        "FLY"
+      ],
       "animations": [
         "q.bedrock('necrozma_ultra', 'air_fly')"
-       ]
+      ]
     },
     "float": {
       "transformTicks": 5,
       "condition": "!q.is_sprinting",
-      "poseTypes": ["FLOAT"],
+      "poseTypes": [
+        "FLOAT"
+      ],
       "animations": [
         "q.bedrock('necrozma_ultra', 'ground_idle')"
       ]
     },
     "run": {
-        "poseTypes": ["STAND","WALK"],
-        "isBattle": false,
-        "condition": "!q.in_air && q.is_sprinting && !q.is_ridden",
-        "animations": [
-          "q.bedrock('necrozma_ultra', 'air_fly')"
-
-        ],
-        "transformTicks": 10
-      },
-      "ride-run": {
-        "poseTypes": ["STAND","WALK"],
-        "isBattle": false,
-        "condition": "!q.in_air && q.is_sprinting && q.is_ridden",
-        "animations": [
-          "q.bedrock('necrozma_ultra', 'air_fly')"
-        ],
-        "transformTicks": 10
-      },
-      "ride-walking": {
-        "poseTypes": ["WALK"],
-        "isBattle": false,
-        "condition": "!q.in_air && !q.is_sprinting && q.is_ridden",
-        "animations": [
-          "q.bedrock('necrozma_ultra', 'air_fly')",
-          {
+      "poseTypes": [
+        "STAND",
+        "WALK"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air && q.is_sprinting && !q.is_ridden",
+      "animations": [
+        "q.bedrock('necrozma_ultra', 'air_fly')"
+      ],
+      "transformTicks": 10
+    },
+    "ride-run": {
+      "poseTypes": [
+        "STAND",
+        "WALK"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air && q.is_sprinting && q.is_ridden",
+      "animations": [
+        "q.bedrock('necrozma_ultra', 'air_fly')"
+      ],
+      "transformTicks": 10
+    },
+    "ride-walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air && !q.is_sprinting && q.is_ridden",
+      "animations": [
+        "q.bedrock('necrozma_ultra', 'air_fly')",
+        {
           "condition": "q.is_ridden",
           "animation": "q.bedrock('necrozma', 'ride_air_fly')"
         }
-        ],
-        "transformTicks": 10
-      },
-      "ride-standing": {
+      ],
+      "transformTicks": 10
+    },
+    "ride-standing": {
       "transformTicks": 10,
-      "condition": "!q.in_air && q.is_ridden" ,
-      "poseTypes": ["STAND"],
+      "condition": "!q.in_air && q.is_ridden",
+      "poseTypes": [
+        "STAND"
+      ],
       "isBattle": false,
       "animations": [
         "q.bedrock('necrozma_ultra', 'ground_idle')"
@@ -100,8 +133,11 @@
     },
     "ride-air-idle": {
       "transformTicks": 10,
-      "condition": "q.in_air && q.is_ridden" ,
-      "poseTypes": ["HOVER", "NONE"],
+      "condition": "q.in_air && q.is_ridden",
+      "poseTypes": [
+        "HOVER",
+        "NONE"
+      ],
       "isBattle": false,
       "animations": [
         "q.bedrock('necrozma_ultra', 'ground_idle')"
@@ -109,12 +145,15 @@
     },
     "in-air": {
       "transformTicks": 10,
-      "condition": "q.in_air && q.is_ridden" ,
-      "poseTypes": ["HOVER", "NONE"],
+      "condition": "q.in_air && q.is_ridden",
+      "poseTypes": [
+        "HOVER",
+        "NONE"
+      ],
       "isBattle": false,
       "animations": [
         "q.bedrock('necrozma_ultra', 'ground_idle')"
       ]
-    } 
+    }
   }
 }

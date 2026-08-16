@@ -3,7 +3,9 @@
   "order": 2,
   "variations": [
     {
-      "aspects": ["mega_x"],
+      "aspects": [
+        "mega_x"
+      ],
       "model": "cobblemon:charizard_mega_x.geo",
       "texture": "cobblemon:textures/pokemon/0006_charizard/megacharizardx.png",
       "layers": [
@@ -25,7 +27,10 @@
       ]
     },
     {
-      "aspects": ["mega_x", "shiny"],
+      "aspects": [
+        "mega_x",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0006_charizard/megacharizardx_shiny.png"
     }
   ]

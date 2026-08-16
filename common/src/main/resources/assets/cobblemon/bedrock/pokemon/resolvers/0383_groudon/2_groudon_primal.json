@@ -3,7 +3,9 @@
   "order": 2,
   "variations": [
     {
-      "aspects": ["primal"],
+      "aspects": [
+        "primal"
+      ],
       "poser": "cobblemon:groudonprimal",
       "model": "cobblemon:groudonprimal.geo",
       "texture": "cobblemon:textures/pokemon/0383_groudon/groudonprimal.png",
@@ -17,7 +19,10 @@
       ]
     },
     {
-      "aspects": ["shiny", "primal"],
+      "aspects": [
+        "shiny",
+        "primal"
+      ],
       "texture": "cobblemon:textures/pokemon/0383_groudon/groudonprimal_shiny.png",
       "layers": [
         {

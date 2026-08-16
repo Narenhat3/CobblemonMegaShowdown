@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["ash"],
+      "aspects": [
+        "ash"
+      ],
       "poser": "cobblemon:greninja_ash",
       "model": "cobblemon:greninja_ash.geo",
       "texture": "cobblemon:textures/pokemon/0658_greninja/greninja_ash.png",
@@ -23,7 +25,10 @@
       ]
     },
     {
-      "aspects": ["ash", "shiny"],
+      "aspects": [
+        "ash",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0658_greninja/greninja_ash_shiny.png",
       "layers": [
         {
@@ -41,7 +46,10 @@
       ]
     },
     {
-      "aspects": ["ash", "alpha_eyes"],
+      "aspects": [
+        "ash",
+        "alpha_eyes"
+      ],
       "layers": [
         {
           "name": "alpha_eyes",

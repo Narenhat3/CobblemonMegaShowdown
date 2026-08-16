@@ -3,13 +3,18 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["gmax"],
+      "aspects": [
+        "gmax"
+      ],
       "poser": "cobblemon:melmetalgmax",
       "model": "cobblemon:melmetal_gigantamax.geo",
       "texture": "cobblemon:textures/pokemon/0809_melmetal/melmetal_gigantamax.png"
     },
     {
-      "aspects": ["shiny", "gmax"],
+      "aspects": [
+        "shiny",
+        "gmax"
+      ],
       "texture": "cobblemon:textures/pokemon/0809_melmetal/melmetal_gigantamax_shiny.png"
     }
   ]

@@ -1,26 +1,59 @@
 {
   "portraitScale": 2.19,
-  "portraitTranslation": [-0.49, 1.13, 0],
+  "portraitTranslation": [
+    -0.49,
+    1.13,
+    0
+  ],
   "profileScale": 0.66,
-  "profileTranslation": [0, 0.77, 0],
+  "profileTranslation": [
+    0,
+    0.77,
+    0
+  ],
   "rootBone": "altaria_mega",
   "firstPersonCameraOffset": {
-    "seat_1": [0, 0.45, 0]
+    "seat_1": [
+      0,
+      0.45,
+      0
+    ]
   },
   "thirdPersonCameraOffset": {
-    "seat_1": [0, 0.5, 0],
-    "seat_1_reverse": [0, 0.5, 0]
+    "seat_1": [
+      0,
+      0.5,
+      0
+    ],
+    "seat_1_reverse": [
+      0,
+      0.5,
+      0
+    ]
   },
   "thirdPersonCameraOffsetNoViewBobbing": {
-    "seat_1": [0, 0.5, 0],
-    "seat_1_reverse": [0, 0.5, 0]
+    "seat_1": [
+      0,
+      0.5,
+      0
+    ],
+    "seat_1_reverse": [
+      0,
+      0.5,
+      0
+    ]
   },
   "animations": {
     "cry": "q.bedrock_stateful('mega_altaria', 'cry')"
   },
   "poses": {
     "standing": {
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
       "isBattle": false,
       "animations": [
         "q.look('neck', 1, 1, 70, -10, 20, -20)",
@@ -32,19 +65,27 @@
           "animation": "q.bedrock('mega_altaria', 'hold_item')"
         }
       ],
-      "quirks": ["q.bedrock_quirk('mega_altaria', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('mega_altaria', 'blink')"
+      ]
     },
     "battle-standing": {
-      "poseTypes": ["STAND"],
+      "poseTypes": [
+        "STAND"
+      ],
       "isBattle": true,
       "animations": [
         "q.look('head')",
         "q.bedrock('mega_altaria', 'battle_idle')"
       ],
-      "quirks": ["q.bedrock_quirk('mega_altaria', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('mega_altaria', 'blink')"
+      ]
     },
     "walking": {
-      "poseTypes": ["WALK"],
+      "poseTypes": [
+        "WALK"
+      ],
       "animations": [
         "q.look('neck', 1, 1, 70, -10, 20, -20)",
         "q.look('head', 1, 1, 20, -90, 60, -37)",
@@ -55,10 +96,14 @@
           "animation": "q.bedrock('mega_altaria', 'hold_item')"
         }
       ],
-      "quirks": ["q.bedrock_quirk('mega_altaria', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('mega_altaria', 'blink')"
+      ]
     },
     "hover": {
-      "poseTypes": ["HOVER"],
+      "poseTypes": [
+        "HOVER"
+      ],
       "animations": [
         "q.pitch_tilt('body', 0.22)",
         "q.look('neck', 1, 1, 70, -10, 20, -20)",
@@ -70,10 +115,14 @@
           "animation": "q.bedrock('mega_altaria', 'hold_item')"
         }
       ],
-      "quirks": ["q.bedrock_quirk('mega_altaria', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('mega_altaria', 'blink')"
+      ]
     },
     "fly": {
-      "poseTypes": ["FLY"],
+      "poseTypes": [
+        "FLY"
+      ],
       "condition": "!q.is_gliding",
       "animations": [
         "q.pitch_tilt('body', 0.22)",
@@ -90,10 +139,14 @@
           "animation": "q.bedrock('mega_altaria', 'ride_air_fly')"
         }
       ],
-      "quirks": ["q.bedrock_quirk('mega_altaria', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('mega_altaria', 'blink')"
+      ]
     },
     "glide": {
-      "poseTypes": ["FLY"],
+      "poseTypes": [
+        "FLY"
+      ],
       "condition": "q.is_gliding",
       "animations": [
         "q.pitch_tilt('body', 0.22)",
@@ -111,10 +164,14 @@
           "animation": "q.bedrock('mega_altaria', 'ride_air_fly')"
         }
       ],
-      "quirks": ["q.bedrock_quirk('mega_altaria', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('mega_altaria', 'blink')"
+      ]
     },
     "sleep": {
-      "poseTypes": ["SLEEP"],
+      "poseTypes": [
+        "SLEEP"
+      ],
       "isBattle": false,
       "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
@@ -128,7 +185,9 @@
       ]
     },
     "battle-sleep": {
-      "poseTypes": ["SLEEP"],
+      "poseTypes": [
+        "SLEEP"
+      ],
       "isBattle": true,
       "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"

@@ -3,13 +3,18 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["mega"],
+      "aspects": [
+        "mega"
+      ],
       "model": "cobblemon:victreebel_mega.geo",
       "poser": "cobblemon:victreebel_mega",
       "texture": "cobblemon:textures/pokemon/0071_victreebel/victreebel_mega.png"
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0071_victreebel/victreebel_mega_shiny.png"
     }
   ]

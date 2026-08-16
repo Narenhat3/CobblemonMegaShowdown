@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0460_abomasnow/abomasnow.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0460_abomasnow/abomasnow_shiny.png"
     }
   ]

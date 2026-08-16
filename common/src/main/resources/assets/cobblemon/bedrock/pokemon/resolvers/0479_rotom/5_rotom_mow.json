@@ -3,7 +3,9 @@
   "order": 5,
   "variations": [
     {
-      "aspects": ["mow-appliance"],
+      "aspects": [
+        "mow-appliance"
+      ],
       "poser": "cobblemon:rotom_mow",
       "model": "cobblemon:rotom_mow.geo",
       "texture": "cobblemon:textures/pokemon/0479_rotom/mow/rotom_mow.png",
@@ -17,7 +19,10 @@
       ]
     },
     {
-      "aspects": ["mow-appliance","shiny"],
+      "aspects": [
+        "mow-appliance",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0479_rotom/mow/rotom_mow_shiny.png",
       "layers": [
         {

@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["gmax"],
+      "aspects": [
+        "gmax"
+      ],
       "poser": "cobblemon:centiskorch_gmax",
       "model": "cobblemon:centiskorch_gmax.geo",
       "texture": "cobblemon:textures/pokemon/0851_centiskorch/centiskorch_gmax.png",
@@ -12,7 +14,7 @@
     },
     {
       "aspects": [
-"gmax", 
+        "gmax",
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/0851_centiskorch/centiskorch_gmax_shiny.png",

@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["mega"],
+      "aspects": [
+        "mega"
+      ],
       "poser": "cobblemon:golurk_mega",
       "model": "cobblemon:golurk_mega.geo",
       "texture": "cobblemon:textures/pokemon/0623_golurk/golurk_mega.png",
@@ -16,9 +18,11 @@
       ]
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0623_golurk/golurk_mega.png",
-
       "layers": [
         {
           "name": "color",

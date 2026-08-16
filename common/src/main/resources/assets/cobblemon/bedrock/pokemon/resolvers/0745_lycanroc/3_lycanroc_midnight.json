@@ -3,7 +3,9 @@
   "order": 3,
   "variations": [
     {
-      "aspects": ["midnight-form"],
+      "aspects": [
+        "midnight-form"
+      ],
       "poser": "cobblemon:lycanroc_midnight",
       "model": "cobblemon:lycanroc_midnight.geo",
       "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc_midnight.png",
@@ -16,7 +18,10 @@
       ]
     },
     {
-      "aspects": ["shiny", "midnight-form"],
+      "aspects": [
+        "shiny",
+        "midnight-form"
+      ],
       "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc_midnight_shiny.png"
     }
   ]

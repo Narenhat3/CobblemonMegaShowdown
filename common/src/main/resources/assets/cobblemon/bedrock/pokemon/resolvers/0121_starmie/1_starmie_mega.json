@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["mega"],
+      "aspects": [
+        "mega"
+      ],
       "poser": "cobblemon:starmie_mega",
       "model": "cobblemon:starmie_mega.geo",
       "texture": "cobblemon:textures/pokemon/0121_starmie/starmie_mega.png",
@@ -17,7 +19,10 @@
       ]
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0121_starmie/starmie_mega_shiny.png",
       "layers": [
         {

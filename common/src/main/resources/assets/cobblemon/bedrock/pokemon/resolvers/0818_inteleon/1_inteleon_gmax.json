@@ -3,7 +3,9 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["gmax"],
+      "aspects": [
+        "gmax"
+      ],
       "poser": "cobblemon:inteleon_gmax",
       "model": "cobblemon:inteleon_gmax.geo",
       "texture": "cobblemon:textures/pokemon/0818_inteleon/inteleon_gmax.png",
@@ -11,7 +13,7 @@
     },
     {
       "aspects": [
-"gmax",
+        "gmax",
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/0818_inteleon/inteleon_gmax_shiny.png"

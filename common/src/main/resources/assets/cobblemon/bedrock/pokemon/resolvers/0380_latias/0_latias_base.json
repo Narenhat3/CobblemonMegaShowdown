@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0380_latias/latias.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0380_latias/latias_shiny.png"
     }
   ]

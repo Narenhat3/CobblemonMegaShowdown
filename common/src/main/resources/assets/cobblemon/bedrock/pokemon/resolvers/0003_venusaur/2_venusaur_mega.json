@@ -11,7 +11,10 @@
       "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_mega.png"
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_mega_shiny.png"
     }
   ]

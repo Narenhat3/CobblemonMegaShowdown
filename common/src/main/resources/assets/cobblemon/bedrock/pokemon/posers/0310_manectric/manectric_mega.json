@@ -1,8 +1,16 @@
 {
   "portraitScale": 1.74,
-  "portraitTranslation": [ -0.81, 0.76, 0],
+  "portraitTranslation": [
+    -0.81,
+    0.76,
+    0
+  ],
   "profileScale": 0.59,
-  "profileTranslation": [ -0.03, 0.83, 0],
+  "profileTranslation": [
+    -0.03,
+    0.83,
+    0
+  ],
   "rootBone": "manectric",
   "poses": {
     "standing": {

@@ -3,16 +3,24 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["mega"],
+      "aspects": [
+        "mega"
+      ],
       "model": "cobblemon:aggron_mega.geo",
       "texture": "cobblemon:textures/pokemon/0306_aggron/aggron_mega.png"
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0306_aggron/aggron_mega_shiny.png"
     },
     {
-      "aspects": ["mega", "alpha_eyes"],
+      "aspects": [
+        "mega",
+        "alpha_eyes"
+      ],
       "layers": [
         {
           "name": "alpha_eyes",

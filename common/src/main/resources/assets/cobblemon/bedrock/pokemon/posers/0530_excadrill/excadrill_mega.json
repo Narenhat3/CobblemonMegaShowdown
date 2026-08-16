@@ -1,9 +1,17 @@
 {
-    "portraitScale": 1.5,
-    "portraitTranslation": [-0.6, 1, 0],
-    "profileScale": 0.4,
-    "profileTranslation": [-0.1, 1.1, 0],
-    "rootBone": "excadrill_mega_mega",
+  "portraitScale": 1.5,
+  "portraitTranslation": [
+    -0.6,
+    1,
+    0
+  ],
+  "profileScale": 0.4,
+  "profileTranslation": [
+    -0.1,
+    1.1,
+    0
+  ],
+  "rootBone": "excadrill_mega_mega",
   "animations": {
     "cry": "q.bedrock_stateful('excadrill_mega', 'cry')",
     "physical": "q.bedrock_primary('excadrill_mega', 'physical', q.curve('symmetrical_wide'))",
@@ -11,14 +19,16 @@
     "status": "q.bedrock_primary('excadrill_mega', 'status', q.curve('symmetrical_wide'))"
   },
   "poses": {
-	"battle-standing": {
-     "poseTypes": ["STAND"],
-     "isBattle": true,
-     "namedAnimations": {
-      "cry": "q.bedrock_primary('excadrill_mega', 'battle_cry', q.curve('symmetrical'))"
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('excadrill_mega', 'battle_cry', q.curve('symmetrical'))"
       },
-     "animations": [
-		"q.look('head_ai')",
+      "animations": [
+        "q.look('head_ai')",
         "q.bedrock('excadrill_mega', 'battle_idle')"
       ],
       "quirks": [
@@ -26,10 +36,15 @@
       ]
     },
     "standing": {
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-	  "isBattle": false,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
       "animations": [
-		"q.look('head_ai')",
+        "q.look('head_ai')",
         "q.bedrock('excadrill_mega', 'ground_idle')"
       ],
       "quirks": [
@@ -37,7 +52,9 @@
       ]
     },
     "walking": {
-      "poseTypes": ["WALK"],
+      "poseTypes": [
+        "WALK"
+      ],
       "animations": [
         "q.bedrock('excadrill_mega', 'ground_walk')"
       ],
@@ -46,11 +63,15 @@
       ]
     },
     "sleep": {
-      "poseTypes": ["SLEEP"],
-	  "namedAnimations": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
       },
-      "animations": ["q.bedrock('excadrill_mega', 'sleep')"]
+      "animations": [
+        "q.bedrock('excadrill_mega', 'sleep')"
+      ]
     }
   }
 }

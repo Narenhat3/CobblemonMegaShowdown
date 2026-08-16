@@ -3,7 +3,9 @@
   "order": 2,
   "variations": [
     {
-      "aspects": ["mega"],
+      "aspects": [
+        "mega"
+      ],
       "model": "cobblemon:blaziken_mega.geo",
       "poser": "cobblemon:blaziken_mega",
       "texture": "cobblemon:textures/pokemon/0257_blaziken/blaziken_mega.png",
@@ -17,7 +19,10 @@
       ]
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0257_blaziken/blaziken_mega_shiny.png"
     }
   ]

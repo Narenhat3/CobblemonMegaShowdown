@@ -3,7 +3,9 @@
   "order": 3,
   "variations": [
     {
-      "aspects": ["mega"],
+      "aspects": [
+        "mega"
+      ],
       "poser": "cobblemon:meowstic_mega",
       "model": "cobblemon:meowstic_mega.geo",
       "texture": "cobblemon:textures/pokemon/0678_meowstic/meowstic_mega.png",
@@ -16,7 +18,10 @@
       ]
     },
     {
-      "aspects": ["mega", "shiny"],
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0678_meowstic/meowstic_mega_shiny.png"
     }
   ]

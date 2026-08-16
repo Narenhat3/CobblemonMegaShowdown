@@ -1,8 +1,16 @@
 {
   "portraitScale": 1.3,
-  "portraitTranslation": [-0.7, 2.1, 0],
+  "portraitTranslation": [
+    -0.7,
+    2.1,
+    0
+  ],
   "profileScale": 0.45,
-  "profileTranslation": [-0.1, 1.0, 0],
+  "profileTranslation": [
+    -0.1,
+    1.0,
+    0
+  ],
   "rootBone": "blastoise",
   "animations": {
     "cry": "q.bedrock_stateful('blastoisegmax', 'cry')",
@@ -10,22 +18,33 @@
   },
   "poses": {
     "battle-standing": {
-      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE"
+      ],
       "isBattle": true,
       "animations": [
         "q.look('head_ai')",
         "q.bedrock('blastoisegmax', 'battle_idle')"
       ],
-      "quirks": ["q.bedrock_quirk('blastoisegmax', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('blastoisegmax', 'blink')"
+      ]
     },
     "standing": {
-      "poseTypes": ["STAND", "NONE"],
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
       "isBattle": false,
       "animations": [
         "q.look('head_ai')",
         "q.bedrock('blastoisegmax', 'ground_idle')"
       ],
-      "quirks": ["q.bedrock_quirk('blastoisegmax', 'blink')"]
+      "quirks": [
+        "q.bedrock_quirk('blastoisegmax', 'blink')"
+      ]
     }
   }
 }

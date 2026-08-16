@@ -3,7 +3,9 @@
   "order": 2,
   "variations": [
     {
-      "aspects": ["mega_x"],
+      "aspects": [
+        "mega_x"
+      ],
       "model": "cobblemon:raichu_mega_x.geo",
       "poser": "cobblemon:raichumegax",
       "texture": "cobblemon:textures/pokemon/0026_raichu/raichu_mega_x.png",
@@ -16,7 +18,10 @@
       ]
     },
     {
-      "aspects": ["mega_x", "shiny"],
+      "aspects": [
+        "mega_x",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0026_raichu/raichu_mega_x_shiny.png"
     }
   ]

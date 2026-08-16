@@ -1,8 +1,16 @@
 {
   "portraitScale": 1.9,
-  "portraitTranslation": [-0.05, 1.65, 0.0],
+  "portraitTranslation": [
+    -0.05,
+    1.65,
+    0.0
+  ],
   "profileScale": 0.55,
-  "profileTranslation": [-0.1, 0.95, 0.0],
+  "profileTranslation": [
+    -0.1,
+    0.95,
+    0.0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('hawluchamega', 'cry')",
     "physical": "q.bedrock_primary('hawluchamega', 'physical', q.curve('symmetrical_wide'))",
@@ -10,12 +18,24 @@
   },
   "poses": {
     "standing": {
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
       "isBattle": false,
-      "animations": ["q.look('head')", "q.bedrock('hawluchamega', 'ground_idle')"]
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('hawluchamega', 'ground_idle')"
+      ]
     },
     "battle-standing": {
-      "poseTypes": ["STAND", "FLY", "WALK"],
+      "poseTypes": [
+        "STAND",
+        "FLY",
+        "WALK"
+      ],
       "isBattle": true,
       "animations": [
         "q.look('head')",
@@ -23,13 +43,22 @@
       ]
     },
     "walking": {
-      "poseTypes": ["WALK"],
+      "poseTypes": [
+        "WALK"
+      ],
       "isBattle": false,
-      "animations": ["q.look('head')", "q.bedrock('hawluchamega', 'ground_walk')"]
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('hawluchamega', 'ground_walk')"
+      ]
     },
     "sleeping": {
-      "poseTypes": ["SLEEP"],
-      "animations": ["q.bedrock('hawluchamega', 'sleep')"]
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('hawluchamega', 'sleep')"
+      ]
     }
   }
 }

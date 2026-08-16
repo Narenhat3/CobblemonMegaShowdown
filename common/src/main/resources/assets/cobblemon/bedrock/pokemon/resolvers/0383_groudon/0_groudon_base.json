@@ -9,7 +9,9 @@
       "texture": "cobblemon:textures/pokemon/0383_groudon/groudon.png"
     },
     {
-      "aspects": ["shiny"],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0383_groudon/groudon_shiny.png"
     }
   ]
