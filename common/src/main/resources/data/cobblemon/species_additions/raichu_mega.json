@@ -16,6 +16,14 @@
         "special_defence": 95,
         "speed": 110
       },
+      "behaviour": {
+        "moving": {
+          "fly": {
+            "canFly": true,
+            "flySpeedHorizontal": 0.3
+          }
+        }
+      },
       "battleOnly": true,
       "dynamaxBlocked": true,
       "height": 12,

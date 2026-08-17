@@ -3,19 +3,26 @@
   "order": 3,
   "variations": [
     {
-      "aspects": [
-        "mega_y"
-      ],
+      "aspects": ["mega_y"],
       "model": "cobblemon:raichu_mega_y.geo",
-      "poser": "cobblemon:raichumegay",
-      "texture": "cobblemon:textures/pokemon/0026_raichu/raichu_mega_y.png"
+      "poser": "cobblemon:raichu_mega_y",
+      "texture": "cobblemon:textures/pokemon/0026_raichu/raichu_mega_y.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/blank.png"
+        }
+      ]
     },
     {
-      "aspects": [
-        "mega_y",
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0026_raichu/raichu_mega_y_shiny.png"
+      "aspects": ["mega_y", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0026_raichu/raichu_mega_y_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/blank.png"
+        }
+      ]
     }
   ]
 }
