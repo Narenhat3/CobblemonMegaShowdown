@@ -5,10 +5,10 @@
     1.15,
     0
   ],
-  "profileScale": 0.85,
+  "profileScale": 0.53,
   "profileTranslation": [
     0.0,
-    0.0,
+    1,
     0
   ],
   "rootBone": "pikachu",

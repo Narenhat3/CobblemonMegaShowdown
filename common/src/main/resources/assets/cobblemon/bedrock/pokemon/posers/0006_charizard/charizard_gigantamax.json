@@ -1,14 +1,14 @@
 {
-  "portraitScale": 2.1,
+  "portraitScale": 1.45,
   "portraitTranslation": [
-    -1.0,
-    3.05,
+    -0.98,
+    3.29,
     0
   ],
-  "profileScale": 0.51,
+  "profileScale": 0.37,
   "profileTranslation": [
     0.05,
-    0.99,
+    1.1,
     -10
   ],
   "rootBone": "charizard_gigantamax",

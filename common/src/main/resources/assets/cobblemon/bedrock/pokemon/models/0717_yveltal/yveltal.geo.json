@@ -6,7 +6,7 @@
 				"identifier": "geometry.yveltal",
 				"texture_width": 512,
 				"texture_height": 512,
-				"visible_bounds_width": 12,
+				"visible_bounds_width": 16,
 				"visible_bounds_height": 9.5,
 				"visible_bounds_offset": [0, 4.25, 0]
 			},
@@ -57,10 +57,10 @@
 				{
 					"name": "locator_seat",
 					"parent": "torso_fur",
-					"pivot": [0, 33, -33],
+					"pivot": [0, 32, -33],
 					"rotation": [75, 0, 0],
 					"locators": {
-						"seat_1": [0, 33, -33]
+						"seat_1": [0, 32, -33]
 					}
 				},
 				{
