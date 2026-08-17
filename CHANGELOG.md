@@ -9,3 +9,4 @@
 - Mega Raichu X can fly now
 - Rideable yveltal
 - Fixed all gmax species/sizing and hitboxes
+- Added aplin line from missingmons
