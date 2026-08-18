@@ -136,10 +136,11 @@
         "gen8",
         "gmax"
       ],
+      "riding": {},
       "baseScale": 0.6,
       "hitbox": {
         "width": 2.4,
-        "height": 5.3,
+        "height": 8,
         "fixed": false
       },
       "aspects": [
